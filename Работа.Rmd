@@ -1,0 +1,24 @@
+---
+title: "Работа"
+author: "Утята"
+date: "4/12/2021"
+output: html_document
+---
+
+```{r}
+library('rio')
+library(DescTools)
+library(EnvStats)
+library(outliers)
+data_raw <- read.csv('data.csv')
+data_raw
+```
+
+```{r}
+data <- data_raw[c('Country.name', 'Regional.indicator', 'Ladder.score', 'Logged.GDP.per.capita', 'Social.support', 'Healthy.life.expectancy', 'Freedom.to.make.life.choices', 'Generosity', 'Perceptions.of.corruption')]
+Desc(data)
+```
+```{r}
+summary(data)
+```
+
