@@ -1,2 +1,4 @@
 # main
-In this repository guys from HSE trying to finish some tasks
+Hello, world! There you can find my several works I've done in my programming learning mission
+
+Bracnh SQL contains some of my MySQL databases and also some queries I made to them
